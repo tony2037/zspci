@@ -1,3 +1,7 @@
+/* Copyright (c) ztex. All rights reserved.
+ * Release under WTFPL, Do What The Fuck You Want To Public License
+ */
+
 #include <sys/io.h>
 #include <stdio.h>
 #include <unistd.h>

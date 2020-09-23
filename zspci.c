@@ -55,6 +55,7 @@ int HexdumpHeader(struct Header *hdr)
         goto fail;
     }
     printf("\nDevice %02x:%02x\n", hdr->DeviceID, hdr->VendorID);
+    printf("Header type: %02x\n", hdr->HeaderType);
 
     ret = 0;
 fail:
